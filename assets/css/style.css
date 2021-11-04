@@ -326,9 +326,11 @@ html {
     padding: 12px;
     cursor: pointer;
     opacity: 0.8;
+
 }
 .modal-close:hover{
     opacity: 1;
+    background-color: #ff0000;
 }
 .modal-body{
     padding: 16px;
