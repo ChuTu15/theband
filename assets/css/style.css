@@ -21,6 +21,10 @@ html {
     text-align: center !important;
 }
 
+.pull-right{
+    float: right !important;
+}
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -57,6 +61,21 @@ html {
 
 .mt-16 {
     margin-top: 16px !important;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
 }
 
 /* common */
@@ -177,7 +196,7 @@ html {
 
 #content .content-section{
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -262,7 +281,6 @@ html {
 
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 .place-img {
@@ -294,20 +312,7 @@ html {
     line-height: 1.4;
 }
 
-.place-buy-btn {
-    display: inline-block;
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 16px;
-    margin-top: 15px;
-    cursor: pointer;
-    border: none;
-}
-.place-buy-btn:hover{
-    color: #000;
-    background-color: #ccc;
-}
+
 
 /* contact form */
 .contact-content{
@@ -334,19 +339,8 @@ html {
     width: 100%;
 }
 
-.contact-form .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 16px;
-    float: right;
-    cursor: pointer;
-}
 
-.contact-form .form-submit-btn:hover {
-    background-color: #ccc;
-    color: #000;
-}
+
 
 
 /* Footer section */
