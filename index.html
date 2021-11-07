@@ -43,30 +43,32 @@
         </div>
 
         <div id="content">
+            <!-- content-section -->
             <div class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="members-list">
-                <div class="member-item">
+            <div class="row members-list">
+                <div class="col col-third text-center">
                     <p class="member-name">Name</p>
                     <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
                 </div>
             </div>
             <div class="members-list">
-                <div class="member-item">
+                <div class="col col-third text-center">
                     <p class="member-name">Name</p>
                     <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
                 </div>
             </div>
             <div class="members-list">
-                <div class="member-item">
+                <div class="col col-third text-center">
                     <p class="member-name">Name</p>
                     <img src="./assets/img/band/bandmember.jpg" alt="Name" class="member-img">
                 </div>
             </div>
             <div class="clear"></div>
             </div>
+            <!-- tour-section -->
             <div class="tour-section">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATE</h2>
@@ -79,9 +81,9 @@
                             <div class="clear"></div>
                         </li>
                     </ul>
-
-                    <div class="places-list">
-                        <div class="place-item">
+                    <!-- Places -->
+                    <div class="row places-list">
+                        <div class="col col-third">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -90,7 +92,7 @@
                                 <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -99,7 +101,7 @@
                                 <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="place-item">
+                        <div class="col col-third">
                             <img src="./assets/img/places/place3.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -111,9 +113,42 @@
                         <div class="clear"></div>
                     </div>
                 </div>
-
             </div>
+            <!-- contact-section -->
+            <div class="contact-section">
+                <div class="content-section">
+                    <h2 class="section-heading ">CONTACT</h2>
+                    <p class="section-sub-heading ">Fan? Drop a note!</p>
 
+                    <div class="row contact-content">
+                        <div class="col col-half contact-info">
+                            <p><i class="ti-location-pin"></i>Chicago, US</p>
+                            <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                            <p><i class="ti-email"></i>mail@mail.com</p>
+                        </div>
+                        <div class="col col-half contact-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-half">
+                                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                    </div>
+                                    <div class="col col-half">
+                                        <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col col-full">
+                                        <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                    </div>
+                                </div>
+                                <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         <div id="footer">
 
         </div>
